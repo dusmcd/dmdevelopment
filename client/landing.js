@@ -1,8 +1,13 @@
 import React from 'react'
-import { Banner } from './components'
+import { Banner, Portfolio } from './components'
 
 const Landing = () => {
-  return <Banner />
+  return (
+    <div>
+      <Banner />
+      <Portfolio />
+    </div>
+  )
 }
 
 export default Landing
